@@ -1,4 +1,125 @@
-/* Poster Alignment */
-.poster {
-    justify-content: ;
+/* index.Html: */
+/* Body Adjustments: */
+
+/*  Header Styling: */
+header {
+    background-color: rgba(26, 26, 131, 0.932);
+    border-color: rgb(0, 0, 0);
+    border-radius: 1em;
+    box-shadow: 2em;
+}
+
+/* Nav Links Styling: */
+.navlink {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    text-align: center;
+    justify-content: space-around;
+    padding: 2px;
+}
+
+.navlink a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navlink:hover {
+    transform: scale(1.10)
+}
+
+/* Title Animation: */
+.title-holder {
+    display: flex;
+    flex-wrap: wrap;
+    border-color: rgb(8, 43, 117);
+
+}
+
+.title-container::backdrop {
+    transform: scale(1.05)
+}
+
+/* Poster Slides: */
+.poster-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.poster-holder {
+    border-color: black;
+    border-radius: 20px;
+}
+
+/* Footer Styling: */
+footer {
+    background-color: rgba(26, 26, 131, 0.932);
+    border-color: rgb(0, 0, 0);
+    border-radius: 1em;
+    box-shadow: 2em;
+    overflow: none;
+}
+
+.footer-gps {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 2px;
+}
+
+.footer-gps:hover {
+    transform: scale(1.05)
+}
+
+.footer-text {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 2px;
+}
+
+.footer-text:hover {
+    transform: scale(1.05)
+}
+
+.footer-open {
+    display: flex;
+    color: white;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 2px;
+}
+
+
+.footer-open:hover {
+    transform: scale(1.05)
+}
+
+.footer-close {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 2px;
+}
+
+.footer-close:hover {
+    transform: scale(1.05)
+}
+
+.footer-close a {
+    color: white;
+    cursor: pointer;
 }
