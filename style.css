@@ -52,6 +52,7 @@ li a {
 /* Buttons Beautification: */
 .guest-btn {
     display: flex;
+    justify-content: center;
 }
 
 .btn-s {
@@ -63,21 +64,20 @@ li a {
 .owner-pic {
     display: flex;
     flex-wrap: wrap;
-}
-
-.ceo-pic {
-    display: flex;
-    flex-wrap: wrap;
     justify-content: center;
 }
 
+.ceo-pic {
+    border: 2px solid rgba(12, 12, 90, 0.932);
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
 #ceo-pic {
-    display: flex;
-    flex-wrap: wrap;
-    background: rgb(255, 255, 255);
-    flex-direction: row;
+    height: 750px;
+    width: 1200px;
     padding: 25px;
-    height: 755px
+
 }
 
 /* Title Edits: */
@@ -85,7 +85,7 @@ li a {
     position: absolute;
     right: 65%;
     top: 49%;
-    bottom: 10%;
+    bottom: -2%;
 
     display: flex;
     flex-wrap: wrap;
@@ -110,10 +110,6 @@ li a {
     font-family: fantasy;
 }
 
-
-.title-holder:hover {
-    transform: scale(1.05);
-}
 
 /* Poster Edits: */
 .poster-carousel {
@@ -184,6 +180,7 @@ li a {
     transition: 2s;
     margin-bottom: 20px;
     margin-right: 15px;
+    width: 300px;
 }
 
 .review-card:hover {
@@ -193,7 +190,7 @@ li a {
 #customer-pic {
     display: flex;
     align-self: center;
-    width: 400px;
+    width: 250px;
     height: 300px;
 }
 
@@ -265,7 +262,6 @@ main {
     background-position: left;
     background-repeat: no-repeat;
 }
-
 
 .shop-intro h1 {
     text-align: center;
@@ -370,3 +366,304 @@ main {
 
 
 /* Contacts.Html: */
+#parked-bikes {
+    width: 600px;
+    height: 500px;
+}
+
+.greet-card {
+    border: 2px solid rgba(12, 12, 90, 0.932);
+    border-radius: 12px;
+    border-bottom: none;
+    border-right: none;
+    margin-top: 20px;
+}
+
+.welcome-box {
+    position: absolute;
+    right: 10%;
+    top: 40%;
+    bottom: 40%;
+    color: white;
+    padding: 30px;
+    min-width: 280px;
+    max-width: 350px;
+    flex-direction: column;
+    text-align: center;
+    transition: 2s;
+    font-family: fantasy;
+}
+
+.welcome-box:hover {
+    transform: scale(1.05);
+}
+
+.welcome-box h1 {
+    text-align: right;
+    font-family: fantasy;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.welcome-box h2 {
+    text-align: right;
+    font-family: fantasy;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.welcome-box p {
+    text-align: right;
+    font-family: fantasy;
+    color: black;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+}
+
+/* Community Reviews Animation: */
+#guy-pic {
+    align-self: center;
+    width: 200px;
+    height: 150px;
+    align-content: center;
+}
+
+.people-box {
+    margin: 100px auto;
+    width: 90%;
+    border: 3px solid rgba(12, 12, 90, 0.932);
+    border-top: none;
+    border-bottom: none;
+    display: flex;
+    overflow-x: auto;
+}
+
+.people-box::-webkit-scrollbar {
+    display: none;
+}
+
+.people-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    animation: spin 15s infinite linear;
+    text-align: center;
+}
+
+.ppl-word {
+    width: 500px;
+    height: 400px;
+    padding: 1em;
+    background: white;
+    border-radius: .2em;
+    align-content: center;
+
+}
+
+.event-holer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+
+.event-card {
+    display: flex;
+    border: 2px solid rgba(0, 0, 0, 0.932);
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: fantasy;
+    font-weight: bold;
+    border-color: rgba(12, 12, 90, 0.932);
+    border-top: none;
+    border-bottom: none;
+    color: black;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    transition: 2s;
+}
+
+.event-name {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgba(0, 0, 0, 0.932);
+    text-align: center;
+    padding: 20px;
+    font-family: fantasy;
+    font-weight: bold;
+    background-color: rgba(12, 12, 90, 0.932);
+    border-color: rgba(0, 0, 0, 0.932);
+    color: rgb(255, 255, 255);
+    border-radius: 12px;
+    margin-bottom: 20px;
+    transition: 2s;
+}
+
+.event-name:hover {
+    transform: scale(1.03);
+}
+
+.join-box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+
+.join-card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 2px solid rgba(12, 12, 90, 0.932);
+    border-radius: 12px;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.932);
+    color: rgb(0, 0, 0);
+    font-family: fantasy;
+    font-weight: bold;
+    transition: 2s;
+    cursor: pointer;
+}
+
+.join-card:hover {
+    transform: scale(1.05);
+}
+
+/* Sign Up/ Log InPages Styles: */
+.sign-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.sign-card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 2px solid rgba(12, 12, 90, 0.932);
+    border-radius: 12px;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.932);
+    color: rgb(0, 0, 0);
+    font-family: fantasy;
+    font-weight: bold;
+    transition: 2s;
+}
+
+.sign-card button {
+    margin: 10px auto;
+    padding: 10px 10px;
+    background-color: rgba(12, 12, 90, 0.932);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: monospace;
+}
+
+.sign-card h2 {
+    text-align: center;
+    font-family: monospace;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.submit-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.reasurance {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.reasurance h1 {
+    text-align: center;
+    font-family: fantasy;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+/* Payment Receipts Style: */
+.payment-receipt {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.payment-card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.932);
+    border-radius: 12px;
+    padding: 30px;
+    background-color: rgba(12, 12, 90, 0.932);
+    color: rgb(255, 255, 255);
+    font-family: fantasy;
+    font-weight: bold;
+    transition: 2s;
+}
+
+.payment-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 2px solid rgba(12, 12, 90, 0.932);
+    border-radius: 12px;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.932);
+    color: rgb(0, 0, 0);
+    font-family: fantasy;
+    font-weight: bold;
+    transition: 2s;
+}
+
+.payment-form h2 {
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+}
+
+.fill-card {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgba(255, 255, 255, 0.932);
+    color: rgb(0, 0, 0);
+    font-family: fantasy;
+    font-weight: bold;
+    transition: 2s;
+    margin-top: 50px;
+}
+
+.deliver-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    border: 2px solid rgba(12, 12, 90, 0.932);
+    border-radius: 12px;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-bottom: none;
+}

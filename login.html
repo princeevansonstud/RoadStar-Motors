@@ -16,38 +16,57 @@
                     <a href="index.html"><img src="images/Gemini_Generated_Image_jidi6ujidi6ujidi.png"
                             alt="RoadStar Logo" id="RDM-logo"></a>
 
-                    <div class="navlink">
-                        <ul>
-                            <li><a href="index.html"> Home </a></li>
-                            <li><a href="inventory.html"> Shop</a></li>
-                            <li><a href="contacts.html"> Community</a></li>
-                        </ul>
-                        <ul>
+                </div>
+                <div class="navlink">
+                    <ul>
+                        <li><a href="index.html"> Home </a></li>
+                        <li><a href="inventory.html"> Shop</a></li>
+                        <li><a href="contacts.html"> Community</a></li>
+                        <li><a href="cart.html"> Your Cart</a></li>
+
+                    </ul>
+                    <div class="guest-btn">
+                        <div class="btn-s">
                             <button><a href="signup.html"> Sign Up </a></button>
+
+
                             <button><a href="login.html"> Log In </a></button>
-                        </ul>
+                        </div>
                     </div>
+
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
 
     <body>
-        <div class="signup-container">
-            <h2> Log In </h2>
-            <form action="#" method="post">
-                <label for="username">Username:</label>
-                <input type="text" id="username" name="username" required>
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" required>
-
-                <button type="submit"> Log In</button>
-            </form>
+        <div class="reasurance">
+            <h1> Welcome Back </h1>
+        </div>
 
 
+        <div class="sign-container">
+            <div class="sign-card">
+                <h2> Log In </h2>
+                <form action="#" method="post">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
 
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+
+                    <div class="submit-btn">
+                        <button type="submit"> Log In</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
 
 
     </body>
@@ -55,8 +74,11 @@
         <div class="footer-box">
             <div class="footer-info">
                 <h3> Visit Us in Our Dealership: </h3>
-                <img scr="#" alt="Location of Dealership">
-                <script scr="#"> MapAPI</script>
+                <iframe width="300px" height="200px"
+                    src="https://www.openstreetmap.org/export/embed.html?bbox=36.96934014558793%2C-1.1704935980422093%2C36.97210282087327%2C-1.1690294171236588&amp;layer=mapnik&amp;marker=-1.1697588898460352%2C36.97072148323059"
+                    style="border: 1px solid black"></iframe><br /><small><a
+                        href="https://www.openstreetmap.org/?mlat=-1.169759&amp;mlon=36.970721#map=19/-1.169762/36.970721">View
+                        Larger Map</a></small>
             </div>
 
             <div class="footer-info ">
@@ -73,10 +95,13 @@
             <div class="footer-info">
                 <h3> Any Inquiries:</h3>
                 <p> Reach Out to us:</p>
-                <a href="customer.html">Customer Care </a>
+                <ul>
+                    <p> Email: RoadStarMotors@gmail.com</p>
+                    <p> Phone: +254 714 455 049</p>
+                </ul>
+
             </div>
         </div>
     </footer>
-</body>
 
 </html>
