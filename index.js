@@ -165,3 +165,32 @@ function renderCart() {
 
 // Initial render on page load
 renderCart();
+
+// Search Bar Functionality:
+document.getElementById('search').addEventListener('click', function () {
+    const query = document.getElementById('search-input').value.toLowerCase();
+    const products = document.querySelectorAll('.product');
+    products.forEach(product => {
+        const productText = product.innerText.toLowerCase();
+        if (productText.includes(query)) {
+            product.style.display = 'block';
+        } else {
+            product.style.display = 'none';
+        }
+    });
+});
+
+document.getElementById('search').addEventListener('click', function () {
+    const query = document.getElementById('search-input').value.toLowerCase();
+    const products = document.querySelectorAll('.product');
+    products.forEach(product => {
+        const productText = product.innerText.toLowerCase();
+        if (productText.includes(query)) {
+            product.style.opacity = '1';
+            product.classList.remove('dimmed');
+        } else {
+            product.style.opacity = '0.3';
+            product.classList.add('dimmed');
+        }
+    });
+});

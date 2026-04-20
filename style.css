@@ -257,6 +257,7 @@ main {
     border-radius: 12px;
     padding: 30px;
     margin-top: 20px;
+    margin-bottom: 150px;
     margin-right: 10px;
     margin-left: 10px;
 
@@ -778,4 +779,87 @@ main {
     align-content: center;
     justify-content: center;
 
+}
+
+/* Map API Styling: */
+.map-box {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.932);
+    border-radius: 12px;
+    padding: 30px;
+    background-color: rgba(12, 12, 90, 0.932);
+    color: rgb(255, 255, 255);
+    font-family: fantasy;
+    font-weight: bold;
+    transform: 2s ease;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+/* Search Bar & Search Button Styling: */
+.shop-nav {
+    position: absolute;
+    width: 95%;
+    margin: 0 auto;
+
+    top: 100%;
+    left: 30%;
+    bottom: 90%
+}
+
+#search-container {
+    margin: 1em o;
+    margin-top: 20px;
+}
+
+#search-container placeholder {
+    color: rgba(12, 12, 90, 0.932);
+}
+
+#search-container input {
+    background-color: transparent;
+    width: 40%;
+    border-bottom: solid 2px black;
+    padding: 1em 0.3em;
+
+}
+
+#search-container input {
+    border-color: rgba(12, 12, 90, 0.932);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+#search-container button {
+    padding: 1em 2em;
+    margin-left: 1em;
+    background-color: rgba(12, 12, 90, 0.932);
+    border-radius: 5px;
+    color: white;
+    font-family: monospace;
+}
+
+.button-value {
+    background-color: white;
+    border: 2px solid rgba(12, 12, 90, 0.932);
+    color: black;
+    font-family: monospace;
+    padding: 1em 2.2em;
+    border-radius: 3em;
+    margin-top: 10px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.active-filter {
+    background-color: rgba(12, 12, 90, 0.932);
+    color: white;
+}
+
+.dimmed {
+    opacity: 0.3;
+    transition: opacity 0.3s;
 }

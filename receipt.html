@@ -77,24 +77,26 @@
             <div class="delivery-card">
                 <h2> Want To Make A Delivery Request?</h2>
                 <h3> IMPORTANT:</h3>
-                <p> Enable This Website to Receive Your Location on Manually Enter Your Address On The Receipt
+                <p> Enable This Website to Receive Your Location or Manually Enter Your Address On The Receipt
                     & We'll Deliver</p>
-                <p> Don't Forget To Hit The Purchase Button Once Your Location Has Been Taken</p>
-
             </div>
 
         </div>
 
-        <div id="map"></div>
-        <script>
-            navigator.geolocation.getCurrentPosition(position => {
-                const { latitude, longitude } = position.coords;
-                Map.innerHTML = 'iframe width= "700" height="300" scr="https://maps.google.com/maps?q=' + latitude + ',' + longitude + '&amp;z=15&amp;output=embed"></iframe>';
-            });
+        <div class="map-box">
+            <div id="map"></div>
+            <script>
+                navigator.geolocation.getCurrentPosition(position => {
+                    const { latitude, longitude } = position.coords;
+                    // Show a map centered at latitude / longitude.
+                    map.innerHTML = '<iframe width="700" height="300" src="https://maps.google.com/maps?q' + latitude + ',' + longitude + '&amp;z=15&amp;output=embed"></iframe>';
+                });
 
-        </script>
+            </script>
 
+        </div>
 
+        <script src="index.js"></script>
 
     </body>
 
