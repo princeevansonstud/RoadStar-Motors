@@ -19,7 +19,7 @@ jobs:
       - name: Upload static site artifacts
         uses: actions/upload-pages-artifact@v3
         with:
-          path: file:///home/prince/Project-Wk/RoadStar/index.html
+          path: https://github.com/princeevansonstud/RoadStar-Motors
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
