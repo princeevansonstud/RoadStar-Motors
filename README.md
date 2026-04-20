@@ -23,7 +23,7 @@ Notice: Email & Phone Number are only required for Log in/Sign In & delivery pup
 
 ## Challenges Faced:
 - The biggest challenge faced was the design of the website. As a beginner, it was difficult to create a website that was both visually appealing and functional. However, with the help of online resources and a lot of trial and error, I was able to create a website that I am proud of.
-- Another challenge faced was the implementation of the login and sign-in functionality. As a beginner. And I still have a lot to learn apparently.
+- Another challenge faced was the implementation of the login and sign-in functionality.As a beginner. And I still have a lot to learn apparently.
 
 ## Future Plans:
 - To add a "Blog" section where users can share their experiences as a rider.
@@ -31,10 +31,10 @@ Notice: Email & Phone Number are only required for Log in/Sign In & delivery pup
  ## Conclusion:
  - This website is a great way for riders to connect and communicate worldwide.
  - It eases the acquire of MotorBikes as delivery services & online-payments.
- -It allows for ease of communication of events & new releases of Bikes. 
- -The website is designed to be user-friendly and easy to navigate, making it accessible to all users. 
- -With future plans to add a blog and community section, the website will continue to grow and provide even more value to its users. 
- -Overall, this website is a great resource for anyone who loves life on the road wants to connect with other riders.
+ - It allows for ease of communication of events & new releases of Bikes. 
+ - The website is designed to be user-friendly and easy to navigate, making it accessible to all users. 
+ - With future plans to add a blog and community section, the website will continue to grow and provide even more value to its users. 
+ - Overall, this website is a great resource for anyone who loves life on the road wants to connect with other riders.
 ## Licenses
 - This project is licensed under the MIT License
 ## Author
