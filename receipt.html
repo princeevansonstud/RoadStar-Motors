@@ -79,12 +79,20 @@
                 <h3> IMPORTANT:</h3>
                 <p> Enable This Website to Receive Your Location on Manually Enter Your Address On The Receipt
                     & We'll Deliver</p>
+                <p> Don't Forget To Hit The Purchase Button Once Your Location Has Been Taken</p>
+
             </div>
-        </div>
 
         </div>
-        </div>
-        </div>
+
+        <div id="map"></div>
+        <script>
+            navigator.geolocation.getCurrentPosition(position => {
+                const { latitude, longitude } = position.coords;
+                Map.innerHTML = 'iframe width= "700" height="300" scr="https://maps.google.com/maps?q=' + latitude + ',' + longitude + '&amp;z=15&amp;output=embed"></iframe>';
+            });
+
+        </script>
 
 
 

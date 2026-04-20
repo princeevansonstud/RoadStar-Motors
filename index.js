@@ -1,3 +1,4 @@
+
 // SignUp & LogIn Buttons Functionality:
 
 function showSignUp() {

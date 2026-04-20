@@ -84,7 +84,7 @@ li a {
 .title-container {
     position: absolute;
     right: 65%;
-    top: 54%;
+    top: 51%;
     bottom: -2%;
     opacity: 80%;
 
@@ -606,7 +606,7 @@ main {
 /* Payment Receipts Style: */
 .payment-receipt {
     display: flex;
-    justify-content: center;
+    justify-content: right;
     margin-top: 50px;
     margin-bottom: 100px;
 }
