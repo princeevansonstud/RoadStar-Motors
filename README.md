@@ -1,16 +1,16 @@
-###What It's About:
-The website was created to allow connect riders nationwide & enhance the growth of the bike community. 
-Allowing ease of communication of events.
-Notifications are sent once important Information is too be passed to the user either through the website itself or the users Email which is required during sign in/ log in.
+##What It's About: 
+-The website was created to allow connect riders nationwide & enhance the growth of the bike community. 
+-Allowing ease of communication of events.
+-Notifications are sent once important Information is too be passed to the user either through the website itself or the users Email which is required during sign in/ log in.
 Notice: Email & Phone Number are only required for Log in & Sign In puporses only! They Will Be Re-Inquired For Purchase & Delivery Purposes.
 
 ###How to Use It:
-Open the website on your local browser.
-Once fully loaded click on the Login Buttton on the Right-Center on the Navigation buttons of the webspace.
-If already a user simply input your email/phone number and password.
-If not a user, Click on the "sign in" button & input your email/phone number & New Password.
-An Verification Code is to be sent on your email so as to provide proof of your ownership of the inputted email.
-Once verified, you are an official RoadStar! You will receive a loyalty card which will guarantee a two year free entry to every RoadStar Event.
+-Open the website on your local browser.
+-Once fully loaded click on the Login Buttton on the Right-Center on the Navigation buttons of the webspace.
+-If already a user simply input your email/phone number and password.
+-If not a user, Click on the "sign in" button & input your email/phone number & New Password.
+-An Verification Code is to be sent on your email so as to provide proof of your ownership of the inputted email.
+-Once verified, you are an official RoadStar! You will receive a loyalty card which will guarantee a two year free entry to every RoadStar Event.
 ###Website Design:
 -This Website was put together single-handedly by Prince Evanson, who has been a software developer for no less than a two months.
 -The website intergrates skill based matchmaking of different languages and version control systems such as HTML,Css, JavaScript & Git(GitHub).
