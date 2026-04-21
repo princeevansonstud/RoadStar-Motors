@@ -305,65 +305,148 @@ main {
 
 
 /* Shop Cards Styling: */
-.shop-container {
-    display: flex;
-    justify-content: space-evenly;
-    gap: 20px;
-    padding: 60px;
+/* General Layout */
+body {
+    margin: 0;
+    font-family: sans-serif;
 }
 
-.shop-cards {
-    display: center;
-    display: inline-block;
-    gap: 70px;
+/* Shop Nav Styling */
+.shop-nav {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    border: 2px solid rgba(0, 0, 0, 0.932);
-    border-radius: 12px;
+    gap: 20px;
     padding: 30px;
+    background-color: #f8f8f8;
+}
+
+#search-container {
+    display: flex;
+    gap: 10px;
+}
+
+#search-input {
+    padding: 10px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Shop Cards Styling */
+/* Shop Nav Bar Fix */
+.shop-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 30px;
+}
+
+#search-container {
+    position: absolute;
+    top: 60%;
+    bottom: 20%;
+    left: 5%;
+
+    margin-bottom: 30px;
+    width: 70%;
+}
+
+#search-input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #1a1a54;
+    outline: none;
+}
+
+#search {
+    background-color: #1a1a54;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Filter Pill Buttons */
+#buttons .button-value {
+    border: 2px solid #1a1a54;
+    background-color: transparent;
+    padding: 8px 25px;
+    border-radius: 25px;
+    margin: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Category Heading */
+.category-title {
+    text-align: center;
+    text-decoration: underline;
+    font-family: monospace;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+/* The Grid Container */
+.bike-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+/* Shop Card Styles */
+.shop-cards {
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 20px;
     background-color: white;
-    transition: 2s;
+    transition: 0.5s ease;
+    /* Snappier transition than 2s */
+    width: 350px;
+    text-align: center;
+}
+
+/*Inactive (For Search) */
+.inactive-card {
+    opacity: 0.1;
+    pointer-events: none;
+    /* User cannot click buttons */
+    cursor: not-allowed;
+    filter: grayscale(100%);
 }
 
 .shop-cards:hover {
     transform: scale(1.05);
 }
 
-.shop-box h2 {
-    text-align: center;
-    font-family: monospace;
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-    font-size: 30px;
-}
-
-
 #bike-pic {
-    display: flex;
-    align-self: center;
-    width: 300px;
+    width: 100%;
     height: 200px;
+    object-fit: contain;
 }
 
 .shop-cards p {
-    text-align: center;
     font-family: fantasy;
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
+    margin: 10px 0;
 }
 
-.shop-cards button {
-    margin: 10px auto;
-    padding: 10px 10px;
-    background-color: rgba(12, 12, 90, 0.932);
+.submit-btn button {
+    background-color: #1a1a54;
     color: white;
+    padding: 10px;
     border: none;
     border-radius: 5px;
+    margin: 5px;
     cursor: pointer;
-    font-family: monospace;
 }
 
-.shop-cards button a {
+.submit-btn button a {
     color: white;
     text-decoration: none;
 }
@@ -854,12 +937,13 @@ main {
     cursor: pointer;
 }
 
-.active-filter {
-    background-color: rgba(12, 12, 90, 0.932);
-    color: white;
+/* Search Bar Cards Opacity Transition: */
+.product-card {
+    transition: opacity 0.4s ease, transform 0.4s ease;
+    opacity: 1;
 }
 
-.dimmed {
-    opacity: 0.3;
-    transition: opacity 0.3s;
+.product-card.fade {
+    opacity: 0.1;
+    pointer-events: none;
 }
