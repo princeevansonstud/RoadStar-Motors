@@ -69,6 +69,7 @@ li a {
 
 .ceo-pic {
     border: 2px solid rgba(12, 12, 90, 0.932);
+    width: 100%;
     border-radius: 12px;
     margin-top: 20px;
 }
@@ -303,38 +304,14 @@ main {
 
 }
 
-
-/* Shop Cards Styling: */
-/* General Layout */
-body {
-    margin: 0;
-    font-family: sans-serif;
-}
-
-/* Shop Nav Styling */
-.shop-nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    padding: 30px;
-    background-color: #f8f8f8;
-}
-
-#search-container {
-    display: flex;
-    gap: 10px;
-}
-
-#search-input {
-    padding: 10px;
-    width: 250px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-}
-
 /* Shop Cards Styling */
 /* Shop Nav Bar Fix */
+.shop-intro {
+    display: flex;
+    margin-bottom: 210px;
+}
+
+
 .shop-nav {
     display: flex;
     flex-direction: column;
@@ -346,11 +323,11 @@ body {
 
 #search-container {
     position: absolute;
-    top: 60%;
+    top: -52%;
     bottom: 20%;
     left: 5%;
 
-    margin-bottom: 30px;
+    margin-bottom: 2000px;
     width: 70%;
 }
 
