@@ -43,7 +43,7 @@
     <body>
 
         <div class="reasurance">
-            <h1> Welcome Back </h1>
+            <h1>Log In Form</h1>
         </div>
 
         <div class="form-container active" id="LoginForm">
@@ -54,16 +54,16 @@
                     <h2> Log In </h2>
 
                     <form id="LoginFormSubmit">
-                        <div class=" form-group">
+                        <div class="login-form">
                             <label for="username ">Username:</label>
                             <input type="name" class="form-control" name="name" required>
 
-                            <label for="email">Email:</label>
+                            <label for="email" id="email-bar">Email:</label>
                             <input type="email" class="form-control" name="email" placeholder="example@gmail.com"
                                 required>
 
                             <label for="password ">Password:</label>
-                            <input type="password" class="form-control" name="password" required>
+                            <input type="password" class="form-control" name="password" minlength="8" required>
 
                             <div class="submit-btn">
                                 <button class="btn-primary" type="submit"> Log In</button>
@@ -76,7 +76,7 @@
             </div>
         </div>
 
-        <script src="index.js"></script>
+        <script src="login.js"></script>
 
     </body>
     <footer>
